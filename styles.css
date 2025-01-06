@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: #007bff;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+.question {
+    background: white;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.answers {
+    list-style: none;
+    padding: 0;
+}
+.answers li {
+    margin: 0.5em 0;
+}
+.correct {
+    background-color: #d4edda;
+}
